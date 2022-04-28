@@ -1,0 +1,44 @@
+4/28/2022, 10:20:15 AM - INFO - Server is running on port: 3030 
+4/28/2022, 10:39:17 AM - INFO - Server is running on port: 3030 
+4/28/2022, 10:40:14 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:41:03 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:42:14 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:42:21 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:42:30 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:42:49 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:43:03 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:43:08 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:43:20 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:43:33 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:43:50 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:44:35 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:45:05 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:46:15 AM - INFO - Server is running on port: 3000 
+4/28/2022, 10:50:53 AM - INFO - Server is running on port: 3030 
+4/28/2022, 10:56:27 AM - INFO - Server is running on port: 3030 
+4/28/2022, 10:57:33 AM - INFO - Server is running on port: 3030 
+4/28/2022, 10:59:46 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:00:25 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:01:51 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:02:46 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:03:18 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:03:50 AM - DEBUG - auth.service - login with username: _schwim_ (sid: JNgey_wUq-xs1cC5r01pMP2jMYLUUvi-)
+4/28/2022, 11:06:46 AM - INFO - Server is running on port: 3030 
+4/28/2022, 11:06:56 AM - DEBUG - auth.service - login with username: _schwim_ (sid: 3U7ryUHCxcl7u0ECRDSU8Om0XJnhTnIj)
+4/28/2022, 11:08:16 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:08:23 AM - DEBUG - auth.service - login with username: _schwim_ (sid: -fN-smrc4bw02ZnvKOS8EPuzs8CuNj8h)
+4/28/2022, 11:09:33 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:09:42 AM - DEBUG - auth.service - login with username: _schwim_ (sid: 4zst30SfZ_mOJ2w6szbp89u9WgcQWa9w)
+4/28/2022, 11:09:42 AM - ERROR - Failed to get posts | TypeError: Cannot destructure property 'password' of 'usersData.find(...)' as it is undefined. (sid: 4zst30SfZ_mOJ2w6szbp89u9WgcQWa9w)
+4/28/2022, 11:09:55 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:09:58 AM - ERROR - Failed to get posts | TypeError: Cannot destructure property 'password' of 'usersData.find(...)' as it is undefined. (sid: jasGGSKEiUw0H0kC2fLcbWLXcJhMH2nJ)
+4/28/2022, 11:10:00 AM - ERROR - Failed to get posts | TypeError: Cannot destructure property 'password' of 'usersData.find(...)' as it is undefined. (sid: jasGGSKEiUw0H0kC2fLcbWLXcJhMH2nJ)
+4/28/2022, 11:10:06 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:10:08 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:10:54 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:11:06 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:11:06 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:11:25 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:12:14 AM - INFO - Server is running on port: 3000 
+4/28/2022, 11:12:18 AM - DEBUG - auth.service - login with username: _schwim_ (sid: unsMFp34v4h9fcDX1ks5TWniiecVtvld)
+4/28/2022, 11:12:56 AM - INFO - Server is running on port: 3000 

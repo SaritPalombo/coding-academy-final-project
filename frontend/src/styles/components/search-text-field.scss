@@ -1,0 +1,149 @@
+.search-text-field {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font: inherit;
+  vertical-align: baseline;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  height: 36px;
+  min-width: 125px;
+  width: 268px;
+  border-radius: 8px;
+
+  .input {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    outline: 0;
+    z-index: 2;
+    border: 0;
+    padding: 3px 16px;
+    -webkit-appearance: none;
+    background: rgba(var(--bb2, 239, 239, 239), 1);
+    font-size: 16px;
+  }
+
+  .content {
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    color: rgba(var(--f52, 142, 142, 142), 1);
+    cursor: text;
+    font-weight: 300;
+    -webkit-box-pack: center;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 0;
+    z-index: 2;
+    background: rgba(var(--bb2, 239, 239, 239), 1);
+    font-size: 16px;
+    padding: 0 16px;
+
+    .container {
+      color: rgba(var(--f52, 142, 142, 142), 1);
+      cursor: text;
+      text-align: left;
+      font: inherit;
+      vertical-align: baseline;
+      border: 0 solid #000;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      -webkit-box-align: center;
+      align-items: center;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-direction: row;
+
+      .icon {
+        color: rgba(var(--f52, 142, 142, 142), 1);
+        cursor: text;
+        text-align: left;
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        border: 0 solid #000;
+        box-sizing: border-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        margin-right: 12px;
+      }
+
+      .label {
+        color: rgba(var(--f52, 142, 142, 142), 1);
+        cursor: text;
+        text-align: left;
+        -webkit-box-direction: normal;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        display: inline-block;
+        max-width: 140px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: bottom;
+        white-space: nowrap;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .space {
+    color: rgba(var(--i1d, 38, 38, 38), 1);
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 12px;
+    width: 375px;
+  }
+}

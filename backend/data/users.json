@@ -1,0 +1,222 @@
+[
+  {
+    "id": "u001",
+    "username": "_schwim_",
+    "password": "123",
+    "fullname": "David Schwimmer",
+    "imgUrl": "https://img.haarets.co.il/img/1.4097980/2035398938.jpg",
+    "savedPosts": [],
+    "followers": 5516884,
+    "following": 10251,
+    "bio": "represent.com/friends"
+  },
+  {
+    "id": "u002",
+    "username": "JenniferAniston",
+    "password": "123",
+    "fullname": "Jennifer Aniston",
+    "imgUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2021_26/1743811/jennifer-aniston-te-square-210702.jpg",
+    "savedPosts": [],
+    "followers": 4959010,
+    "following": 25021,
+    "bio": "My friends call me Jen."
+  },
+  {
+    "id": "u003",
+    "username": "lisa_kudrow",
+    "password": "123",
+    "fullname": "Lisa Kudrow",
+    "imgUrl": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTgwMDE3NzE5MjMwMzQyNDg4/gettyimages-90868699.jpg",
+    "savedPosts": [],
+    "followers": 9401007,
+    "following": 20383,
+    "bio": "Played Phoebe Buffay on Friends"
+  },
+  {
+    "id": "u004",
+    "username": "Matthewperry",
+    "password": "123",
+    "fullname": "Matthew Perry",
+    "imgUrl": "https://www.themoviedb.org/t/p/w235_and_h235_face/ecDzkLWPV1z0x31I1GTjNmLxAHk.jpg",
+    "savedPosts": [],
+    "followers": 6969440,
+    "following": 17409,
+    "bio": "What is this, my Instagram account?"
+  },
+  {
+    "id": "u005",
+    "username": "matt_le_blanc",
+    "password": "123",
+    "fullname": "Matt LeBlanc",
+    "imgUrl": "https://i2-prod.mirror.co.uk/incoming/article7318142.ece/ALTERNATES/s1200c/Matt-LeBlanc.jpg",
+    "savedPosts": [],
+    "followers": 8100176,
+    "following": 31007,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u006",
+    "username": "courteneycoxofficial",
+    "password": "123",
+    "fullname": "Courteney Cox",
+    "imgUrl": "https://pbs.twimg.com/profile_images/1777161978/Cougar_town_cox_300_400x400.jpg",
+    "savedPosts": [],
+    "followers": 5032228,
+    "following": 29131,
+    "bio": "I played piano with Elton John!"
+  },
+  {
+    "id": "u007",
+    "username": "maggiewheeler_official",
+    "password": "123",
+    "fullname": "Margaret Emily Wheeler",
+    "imgUrl": "https://www.a3artistsagency.com/wp-content/uploads/2021/04/maggie-wheeler-MAGGIE-WHEELER-HEADSHOT-2.jpg",
+    "savedPosts": [],
+    "followers": 2698475,
+    "following": 154118,
+    "bio": "Actress, Voice-over artist, singer, JANICE!!"
+  },
+  {
+    "id": "u008",
+    "username": "paul__rudd",
+    "password": "123",
+    "fullname": "Paul Rudd",
+    "imgUrl": "https://www.earwolf.com/wp-content/uploads/2013/11/1681.jpg",
+    "savedPosts": [],
+    "followers": 1258964,
+    "following": 15255,
+    "bio": "Actor, comedian, Film maker"
+  },
+  {
+    "id": "u009",
+    "username": "juliaroberts",
+    "password": "123",
+    "fullname": "Julia Roberts",
+    "imgUrl": "https://rootavor.com/wp-content/uploads/2019/06/3%D7%92%D7%95%D7%9C%D7%99%D7%94-%D7%A8%D7%95%D7%91%D7%A8%D7%98%D7%A1-%D7%91%D7%9E%D7%A8%D7%90%D7%94-%D7%99%D7%95%D7%9E%D7%99%D7%95%D7%9E%D7%99-%D7%9B%D7%9E%D7%A2%D7%98-%D7%9C%D7%9C%D7%90-%D7%90%D7%99%D7%A4%D7%95%D7%A8.jpg",
+    "savedPosts": [],
+    "followers": 1024490,
+    "following": 17002,
+    "bio": "human."
+  },
+  {
+    "id": "u010",
+    "username": "aishatyler",
+    "password": "123",
+    "fullname": "Aisha Tyler",
+    "imgUrl": "https://www.aceshowbiz.com/images/photo/aisha_tyler.jpg",
+    "savedPosts": [],
+    "followers": 4625569,
+    "following": 10254,
+    "bio": "It’s happy hour somewhere."
+  },
+  {
+    "id": "u011",
+    "username": "janesibbett",
+    "password": "123",
+    "fullname": "Jane Sibbett",
+    "imgUrl": "https://kmesh.io/img/biography/02/jane-sibbett-biography.jpg",
+    "savedPosts": [],
+    "followers": 800656,
+    "following": 9536,
+    "bio": "I came in feet first and have been dancing in the miraculous since. I play, pray & dance for peace. MomActorWriterProducerDirector, Friends ♥️ "
+  },
+  {
+    "id": "u012",
+    "username": "tomselleckofficial",
+    "password": "123",
+    "fullname": "Tom Selleck",
+    "imgUrl": "https://img.playbuzz.com/image/upload/ar_1,c_crop/q_auto:best,f_auto,fl_lossy,w_640,c_limit,dpr_2.5/v1557917844/tczl72eucbukvuyfqecd.jpg",
+    "savedPosts": [],
+    "followers": 600913,
+    "following": 51784,
+    "bio": "Magnum PI, Blue Bloods, Three Men and a Baby. #fearthestache"
+  },
+  {
+    "id": "u013",
+    "username": "noelle.sheldon",
+    "password": "123",
+    "fullname": "Noelle Sheldon",
+    "imgUrl": "https://biographymask.com/wp-content/uploads/2020/06/Noelle-Sheldon-Actress.jpg",
+    "savedPosts": [],
+    "followers": 689003,
+    "following": 7544,
+    "bio": "UCLA 2024"
+  },
+  {
+    "id": "u014",
+    "username": "dermotmulroneys",
+    "password": "123",
+    "fullname": "Dermot Mulroney",
+    "imgUrl": "https://wikinbio.com/wp-content/uploads/2021/05/Dermot-Mulroney-age-height-body-spouse-affairs-salary-family-photos-wiki-biography-Caste-Religion..jpg",
+    "savedPosts": [],
+    "followers": 880414,
+    "following": 15002,
+    "bio": "Actor"
+  },
+  {
+    "id": "u015",
+    "username": "u015",
+    "password": "123",
+    "fullname": "Muki Muka - u015",
+    "imgUrl": "https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u016",
+    "username": "u016",
+    "password": "123",
+    "fullname": "Muki Muka - u016",
+    "imgUrl": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u017",
+    "username": "u017",
+    "password": "123",
+    "fullname": "Muki Muka - u017",
+    "imgUrl": "https://images.pexels.com/photos/3739449/pexels-photo-3739449.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u018",
+    "username": "u018",
+    "password": "123",
+    "fullname": "Muki Muka - u018",
+    "imgUrl": "https://images.pexels.com/photos/127229/pexels-photo-127229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u019",
+    "username": "u019",
+    "password": "123",
+    "fullname": "Muki Muka - u019",
+    "imgUrl": "https://images.pexels.com/photos/6333652/pexels-photo-6333652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  },
+  {
+    "id": "u020",
+    "username": "u020",
+    "password": "123",
+    "fullname": "Muki Muka - u020",
+    "imgUrl": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "savedPosts": [],
+    "followers": 5,
+    "following": 3,
+    "bio": "Hello World!"
+  }
+]

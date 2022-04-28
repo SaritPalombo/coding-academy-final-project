@@ -1,0 +1,9 @@
+{
+  "diffEditor.wordWrap": "off",
+  "editor.wordWrapColumn": 800000,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

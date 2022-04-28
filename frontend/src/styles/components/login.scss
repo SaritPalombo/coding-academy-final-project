@@ -1,0 +1,292 @@
+@keyframes changeBg {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mobile-app-img:nth-of-type(1) {
+  animation-delay: 12s;
+}
+.mobile-app-img:nth-of-type(2) {
+  animation-delay: 8s;
+}
+.mobile-app-img:nth-of-type(3) {
+  animation-delay: 4s;
+}
+.mobile-app-img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+.aaqqqaa {
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+.login-view-container {
+  width: 760px;
+  display: flex;
+
+  .left-container {
+    width: 410px;
+    .template-img {
+      position: relative;
+      width: 380px;
+      height: 582px;
+      background-position: -46px 0;
+      background-image: url(/images/login/container.png);
+      .mobile-app-img {
+        position: absolute;
+        top: 27px;
+        left: 113px;
+        visibility: visible;
+        opacity: 1;
+        width: 250px;
+        height: 540px;
+        background-position: 0px 0;
+        animation-name: changeBg;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 16s;
+      }
+    }
+  }
+  .right-container {
+    width: 380px;
+    .login-container {
+      align-items: center;
+      width: 100%;
+      height: 396px;
+      .logo {
+        width: 175px;
+        height: 51px;
+        margin-top: 46px;
+        margin-bottom: 30px;
+      }
+      .input-textfield {
+        max-width: 266px;
+        margin-top: 6px;
+      }
+
+      .login-btn {
+        width: 268px;
+        height: 30px;
+        margin-top: 14px;
+        margin-bottom: 18px;
+      }
+
+      .or-label {
+        width: 268px;
+        text-align: center;
+        border-bottom: 1px solid #8e8e8e;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+        .or-label-text {
+          background: #fff;
+          padding: 0 10px;
+          color: #8e8e8e;
+        }
+      }
+
+      .fb-icon {
+        cursor: pointer;
+        text-align: center;
+        text-transform: inherit;
+        user-select: none;
+        color: rgba(var(--d69, 0, 149, 246), 1);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        background-image: url(/images/login/icons.png);
+        background-repeat: no-repeat;
+        background-position: -414px -259px;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        margin-right: 8px;
+        position: relative;
+        top: 3px;
+      }
+
+      .fb-login-btn {
+        margin-top: 20px;
+        line-height: 18px;
+        appearance: none;
+        background: 0 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        text-overflow: ellipsis;
+        text-transform: inherit;
+        user-select: none;
+        width: auto;
+        border: 0;
+        color: rgba(var(--d69, 0, 149, 246), 1);
+        display: inline-block;
+        padding: 0;
+        position: relative;
+      }
+
+      .fb-log-in-label {
+        cursor: pointer;
+        text-align: center;
+        text-transform: inherit;
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: #385185;
+      }
+      .fb-forgot-password {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        text-decoration: none;
+        color: rgba(var(--fe0, 0, 55, 107), 1);
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 12px;
+        text-align: center;
+      }
+    }
+    .signup-container {
+      margin-top: 10px;
+      width: 100%;
+      height: 63px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .signup-text-container {
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        border: 0 solid #000;
+        box-sizing: border-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        flex-shrink: 0;
+        padding: 0;
+        position: relative;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        margin: -3px 0 -4px;
+        font-weight: 400;
+        color: rgba(var(--f52, 142, 142, 142), 1);
+        display: block;
+      }
+
+      .signup-text-label {
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(var(--i1d, 38, 38, 38), 1);
+        font-size: 14px;
+        margin: 15px;
+        text-align: center;
+      }
+
+      .signup-link-text {
+        text-align: center;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        color: rgba(var(--d69, 0, 149, 246), 1);
+        display: inline;
+        margin: 0;
+      }
+    }
+    .download-app-container {
+      margin-top: 10px;
+      width: 100%;
+      height: 103px;
+
+      .download-button {
+        color: rgba(var(--fe0, 0, 55, 107), 1);
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        height: 40px;
+      }
+
+      .download-link {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(var(--fe0, 0, 55, 107), 1);
+        text-decoration: none;
+        margin-right: 8px;
+      }
+
+      .download-buttons-container {
+        color: rgba(var(--i1d, 38, 38, 38), 1);
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        border: 0 solid #000;
+        box-sizing: border-box;
+        display: flex;
+        flex-shrink: 0;
+        padding: 0;
+        position: relative;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin: 10px 0 10px 0;
+      }
+
+      .get-the-app {
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        color: rgba(var(--i1d, 38, 38, 38), 1);
+        font-size: 14px;
+        line-height: 18px;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+      }
+    }
+
+    .box-container {
+      background-color: #ffffff;
+      border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+    }
+  }
+}
