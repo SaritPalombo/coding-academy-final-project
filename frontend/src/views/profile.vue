@@ -33,12 +33,12 @@
 
       <div class="profile-tab-nav-container">
         <div class="p1" role="tablist">
-          <!--<a aria-selected="false" class="posts-icon" role="tab" @click="changeCategory('posts')" tabindex="0">
+          <a aria-selected="false" class="posts-icon" role="tab" @click="changeCategory('posts')" tabindex="0">
             <span class="p3">
               <icon-posts-tab class="p4" />
               <span class="p5">Posts</span>
             </span>
-          </a>-->
+          </a>
           <a aria-selected="false" class="videos-icon" role="tab" v-if="videosPosts.length !== 0" @click="changeCategory('videos')" tabindex="0">
             <span class="a1">
               <icon-videos-tab class="a2" />
@@ -102,9 +102,9 @@
       </div>
     </div>
 
-    <!--<div class="profile-post-container">
-      <profile-post v-for="post in savedPosts" :key="post.id" :post="post" />
-    </div>-->
+    <div class="profile-post-container">
+      <profile-post v-for="post in postsByCategory" :key="post.id" :post="post" />
+    </div>
   </section>
 </template>
 
