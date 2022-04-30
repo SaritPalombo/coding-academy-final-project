@@ -33,12 +33,12 @@
 
       <div class="profile-tab-nav-container">
         <div class="p1" role="tablist">
-          <a aria-selected="false" class="posts-icon" role="tab" @click="changeCategory('posts')" tabindex="0">
+          <!--<a aria-selected="false" class="posts-icon" role="tab" @click="changeCategory('posts')" tabindex="0">
             <span class="p3">
               <icon-posts-tab class="p4" />
               <span class="p5">Posts</span>
             </span>
-          </a>
+          </a>-->
           <a aria-selected="false" class="videos-icon" role="tab" v-if="videosPosts.length !== 0" @click="changeCategory('videos')" tabindex="0">
             <span class="a1">
               <icon-videos-tab class="a2" />
@@ -58,10 +58,6 @@
             </span>
           </a>
         </div>
-        <!-- <label @click="changeCategory('posts')"><i class="fa-solid fa-table-cells"></i> POSTS</label>
-        <label v-if="videosPosts.length !== 0" @click="changeCategory('videos')"><i class="fa-regular fa-circle-play"></i> VIDEOS</label>
-        <label @click="changeCategory('saved')"><i class="fa-regular fa-bookmark"></i> SAEVD</label>
-        <label @click="changeCategory('tagged')"><i class="fa-regular fa-circle-user"></i> TAGGED</label> -->
       </div>
     </div>
 
@@ -106,9 +102,9 @@
       </div>
     </div>
 
-    <div class="profile-post-container">
-      <profile-post v-for="post in postsByCategory" :key="post.id" :post="post" />
-    </div>
+    <!--<div class="profile-post-container">
+      <profile-post v-for="post in savedPosts" :key="post.id" :post="post" />
+    </div>-->
   </section>
 </template>
 
@@ -152,7 +148,7 @@ export default {
       return this.$store.getters.postsById(this.userId) || []
     },
     savedPosts() {
-      return [] //this.user.savedPosts.flatMap.flatMap(postId => this.userPosts.find(post => post.id === postId)) || []
+      return this.$store.getters.savedPostsByUser(this.user.savedPosts)
     },
     videosPosts() {
       return this.$store.getters.videoPostsById(this.userId) || []
@@ -178,6 +174,7 @@ export default {
   },
   methods: {
     changeCategory(category) {
+      console.log(category)
       this.currCategory = category
     },
   },

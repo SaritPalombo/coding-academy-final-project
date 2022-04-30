@@ -51,12 +51,17 @@
 }
 
 .post-img {
-  height: auto;
+  height: inherit;
   width: 100%;
 }
 
 .img-carousel {
-  width: 100%;
+  width: inherit;
+  height: inherit;
+}
+
+.img-carousel img{
+  height: 100%;
 }
 
 .post-icons {

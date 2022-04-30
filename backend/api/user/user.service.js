@@ -8,6 +8,7 @@ module.exports = {
   userDetails,
   savePost,
   userProfile,
+  getUsers
 }
 
 function userProfile(userId) {
@@ -55,4 +56,8 @@ function savePost(userId, post) {
     logger.error("cannot save post", err)
     throw err
   }
+}
+
+function getUsers(){
+  return usersData;
 }

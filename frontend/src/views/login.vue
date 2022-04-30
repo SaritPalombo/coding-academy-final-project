@@ -54,8 +54,8 @@
 export default {
   data() {
     return {
-      username: "",
-      password: "",
+      username: "_schwim_",
+      password: "123",
     }
   },
   computed: {

@@ -8,6 +8,7 @@ export const userService = {
   login,
   logout,
   getLoggedInUser,
+  signup
 }
 
 function getLoggedInUser() {
@@ -27,4 +28,12 @@ async function logout() {
 function _saveLocalUser(user) {
   sessionStorage.setItem(STORAGE_KEY_LOGGED_IN_USER, JSON.stringify(user))
   return user
+}
+
+function signup(user){
+  return await httpService.post("user", user)
+}
+
+function getAllUsers(){
+  return await httpService.get("user")
 }

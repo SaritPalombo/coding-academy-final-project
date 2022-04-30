@@ -5,7 +5,7 @@
     "password": "123",
     "fullname": "David Schwimmer",
     "imgUrl": "https://img.haarets.co.il/img/1.4097980/2035398938.jpg",
-    "savedPosts": [],
+    "savedPosts": ["s101", "s102"],
     "followers": 5516884,
     "following": 10251,
     "bio": "represent.com/friends"

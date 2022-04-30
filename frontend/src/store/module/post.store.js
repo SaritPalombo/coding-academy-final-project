@@ -14,6 +14,10 @@ export default {
     videoPostsById: state => userId => {
       return state.posts.flatMap(post => (post.by.id === userId && post.isVideo ? post : []))
     },
+    savedPostsByUser: state => userSaved =>{
+      console.log(userSaved)
+      return state.posts.flatMap((post) => userSaved?.includes(post.id) ? post : [])
+    }
   },
   mutations: {
     setPosts(state, { posts }) {
