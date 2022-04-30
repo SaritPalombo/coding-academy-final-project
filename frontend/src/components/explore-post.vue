@@ -11,7 +11,6 @@
     </div>
     <div class="explore-post-overlay" @click="openModal">
       <div class="icons-overlay">
-        <!-- <icon-explore-hover-video v-if="post.isVideo" /> -->
         <div class="icon-container-explore" v-if="post.comments.length">
           <icon-explore-hover-comment />
           <span>{{ post.comments.length }}</span>

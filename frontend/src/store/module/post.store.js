@@ -14,20 +14,14 @@ export default {
     videoPostsById: state => userId => {
       return state.posts.flatMap(post => (post.by.id === userId && post.isVideo ? post : []))
     },
-    savedPostsByUser: state => userSaved =>{
-      console.log(userSaved)
-      return state.posts.flatMap((post) => userSaved?.includes(post.id) ? post : [])
-    }
+    savedPostsByUser: state => userSaved => {
+      return state.posts.flatMap(post => (userSaved?.includes(post.id) ? post : []))
+    },
   },
   mutations: {
     setPosts(state, { posts }) {
       state.posts = posts ? [...posts] : null
     },
-    // savePost(state, { post }) {
-    //   const idx = state.posts.findIndex(currPost => currPost.id === post.id)
-    //   if (idx !== -1) state.posts.splice(idx, 1, post)
-    //   else state.posts.push(post)
-    // },
   },
   actions: {
     async loadPosts({ commit }) {

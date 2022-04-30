@@ -23,7 +23,6 @@
         {{ post.txt }}
       </div>
       <div class="comments-amount" v-if="amountOfComments !== 0" @click="openModal()">View all {{ amountOfComments }} comments</div>
-      <!--<post-comments :comments="post.comments" @like-comment="likeComment" @unlike-comment="unlikeComment" />-->
       <div class="time-ago">{{ timeAgo }} AGO</div>
     </div>
   </section>
@@ -52,11 +51,6 @@ export default {
       required: true,
     },
   },
-  data() {
-    return {
-      isSaved: Math.random() < 0.5,
-    }
-  },
   computed: {
     amountOfLikes() {
       return this.post.likedBy.length
@@ -73,6 +67,9 @@ export default {
     isLiked() {
       return this.post.likedBy.filter(userId => userId === this.activeUser.id).length > 0
     },
+    isSaved() {
+      return this.$store.getters.loggedInUser.savedPosts.includes(this.post.id)
+    },
     activeUser() {
       return this.$store.getters.loggedInUser
     },
@@ -82,25 +79,8 @@ export default {
     openModal() {
       this.$emit("open-modal")
     },
-    // likeComment(commentId) {
-    //   let upadtePost = JSON.parse(JSON.stringify(this.post))
-    //   const commentIndex = upadtePost.comments.findIndex(comment => comment.id === commentId)
-    //   upadtePost.comments[commentIndex].likedBy.push(this.generateUser)
-    //   postService.update(upadtePost).then(() => this.$store.dispatch({ type: "loadPosts" }))
-    // },
-    // unlikeComment(commentId) {
-    //   let upadtePost = JSON.parse(JSON.stringify(this.post))
-    //   const commentIndex = upadtePost.comments.findIndex(comment => comment.id === commentId)
-    //   upadtePost.comments[commentIndex].likedBy.splice(
-    //     upadtePost.comments[commentIndex].likedBy.findIndex(user => {
-    //       return user.username === this.onlineUsername
-    //     }),
-    //     1
-    //   )
-    //   postService.update(upadtePost).then(() => this.$store.dispatch({ type: "loadPosts" }))
-    // },
     savePost() {
-      this.isSaved = !this.isSaved
+      this.$store.dispatch({ type: "savePost", post: this.post })
     },
     addLike() {
       const post = JSON.parse(JSON.stringify(this.post))

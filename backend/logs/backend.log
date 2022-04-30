@@ -42,69 +42,11 @@
 4/28/2022, 11:12:14 AM - INFO - Server is running on port: 3000 
 4/28/2022, 11:12:18 AM - DEBUG - auth.service - login with username: _schwim_ (sid: unsMFp34v4h9fcDX1ks5TWniiecVtvld)
 4/28/2022, 11:12:56 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:20:04 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:22:01 AM - DEBUG - auth.service - login with username: Mikmak (sid: An8_Jg-UvNNSRgCiTaqPaWjtoD4gPBEH)
-4/29/2022, 8:22:01 AM - ERROR - Failed to login Invalid username or password (sid: An8_Jg-UvNNSRgCiTaqPaWjtoD4gPBEH)
-4/29/2022, 8:23:00 AM - DEBUG - auth.service - login with username: _schwim_ (sid: Vbuh4d_wsHP0sjLU86om4NUA6rJQAPG0)
-4/29/2022, 8:38:36 AM - DEBUG - auth.service - login with username: _schwim_ (sid: jYBA-iXDIJwd3rGJf1uTIbiRAXbo4kXY)
-4/29/2022, 8:43:13 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:43:26 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:43:27 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:43:29 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:56:22 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:02:22 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:12:55 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:13:12 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:16:54 AM - DEBUG - auth.service - login with username: _schwim_ (sid: WvMZTeAXudpWa0UCk3BGOvfqit5Eu5nK)
-4/29/2022, 9:18:10 AM - DEBUG - auth.service - login with username: _schwim_ (sid: WvMZTeAXudpWa0UCk3BGOvfqit5Eu5nK)
-4/29/2022, 9:24:40 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:27:52 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:27:53 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:28:07 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:11 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:11 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:19 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:25 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:28 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:32:31 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:40:44 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:05 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:09 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:09 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:24 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:28 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:33 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:39 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:42 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:56 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:41:59 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:17 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:19 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:23 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:25 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:29 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:35 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:37 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:44 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:42:49 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:43:22 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:47:33 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:48:51 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:48:53 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:48:54 AM - INFO - Server is running on port: 3000 
-4/29/2022, 9:48:57 AM - INFO - Server is running on port: 3000 
-4/29/2022, 10:03:14 AM - INFO - Server is running on port: 3000 
-4/29/2022, 8:01:57 PM - DEBUG - auth.service - login with username: _schwim_ (sid: C09edzW1bdS89MI_aPWDafPk72HFtq_f)
-4/30/2022, 9:26:13 AM - DEBUG - auth.service - login with username: _schwim_ (sid: C09edzW1bdS89MI_aPWDafPk72HFtq_f)
-4/30/2022, 9:28:15 AM - DEBUG - auth.service - login with username: JenniferAniston (sid: JukD_-3k4c_DCCtrrdFNkBIqJeDzvE9b)
-4/30/2022, 9:33:11 AM - INFO - Server is running on port: 3000 
-4/30/2022, 9:34:39 AM - INFO - Server is running on port: 3000 
-4/30/2022, 9:37:37 AM - DEBUG - auth.service - login with username: JenniferAniston (sid: Ukh9JSnfFrXc356cKIRD0W9GYs_eWk0K)
-4/30/2022, 9:50:17 AM - INFO - Server is running on port: 3000 
-4/30/2022, 9:55:38 AM - INFO - Server is running on port: 3000 
-4/30/2022, 9:55:57 AM - DEBUG - auth.service - login with username: JenniferAniston (sid: IXd7m51rjyDtm8iBmv4D4oqS184ILjum)
-4/30/2022, 10:00:01 AM - DEBUG - auth.service - login with username: JenniferAniston (sid: 7BHFdNtE7tJeH-QMuvWCdDHnOkCR7zfU)
-4/30/2022, 10:03:40 AM - DEBUG - auth.service - login with username: _schwim_ (sid: OliAzWMPASXo8nqJ8Ru5iQeTdGUk1Uh1)
-4/30/2022, 10:05:59 AM - INFO - Server is running on port: 3000 
-4/30/2022, 10:14:36 AM - INFO - Server is running on port: 3000 
-4/30/2022, 10:21:18 AM - DEBUG - auth.service - login with username: _schwim_ (sid: SLrP6Gu-fbv_KkIrR9WVW2298uyIfSer)
+4/30/2022, 6:32:02 PM - INFO - Server is running on port: 3030 
+4/30/2022, 6:33:11 PM - DEBUG - auth.service - signup with username: fdg, fullname: fgbfd (sid: 5vqzb96ZwIUblcBh1sMjRdeDGL6RDpOb)
+4/30/2022, 6:33:11 PM - DEBUG - auth.route - new account created: {"id":"u021","username":"fdg","password":"123","fullname":"fgbfd","imgUrl":"https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2-2.png","savedPosts":[],"followers":0,"following":0,"bio":""} (sid: 5vqzb96ZwIUblcBh1sMjRdeDGL6RDpOb)
+4/30/2022, 6:33:11 PM - DEBUG - auth.service - login with username: fdg (sid: 5vqzb96ZwIUblcBh1sMjRdeDGL6RDpOb)
+4/30/2022, 6:33:21 PM - DEBUG - auth.service - login with username: _schwim_ (sid: MuJOQFKQWGQJFvVglUtCviFmFcv9wdSo)
+4/30/2022, 6:54:34 PM - INFO - Server is running on port: 3030 
+4/30/2022, 7:01:57 PM - DEBUG - auth.service - login with username: _schwim_ (sid: 5Ri5SW13oj4I_4d5DsIxYjk7iKK4pkPC)
+4/30/2022, 7:08:37 PM - INFO - Server is running on port: 3030 

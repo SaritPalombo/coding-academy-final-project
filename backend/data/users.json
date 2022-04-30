@@ -5,7 +5,10 @@
     "password": "123",
     "fullname": "David Schwimmer",
     "imgUrl": "https://img.haarets.co.il/img/1.4097980/2035398938.jpg",
-    "savedPosts": ["s101", "s102"],
+    "savedPosts": [
+      "s101",
+      "s102"
+    ],
     "followers": 5516884,
     "following": 10251,
     "bio": "represent.com/friends"
@@ -218,5 +221,16 @@
     "followers": 5,
     "following": 3,
     "bio": "Hello World!"
+  },
+  {
+    "id": "u021",
+    "username": "fdg",
+    "password": "123",
+    "fullname": "fgbfd",
+    "imgUrl": "https://www.oseyo.co.uk/wp-content/uploads/2020/05/empty-profile-picture-png-2-2.png",
+    "savedPosts": [],
+    "followers": 0,
+    "following": 0,
+    "bio": ""
   }
 ]

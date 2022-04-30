@@ -8,6 +8,15 @@ async function login(username, password) {
   return userService.userDetails(user)
 }
 
+async function signup(username, password, fullname) {
+  logger.debug(`auth.service - signup with username: ${username}, fullname: ${fullname}`)
+  if (!username || !password || !fullname) return Promise.reject("fullname, username and password are required!")
+  const userExist = await userService.getUser(username)
+  if (userExist) return Promise.reject("Username already taken")
+  return userService.add({ username, password, fullname })
+}
+
 module.exports = {
   login,
+  signup,
 }

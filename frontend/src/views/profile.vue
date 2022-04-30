@@ -32,29 +32,29 @@
       </segment>
 
       <div class="profile-tab-nav-container">
-        <div class="p1" role="tablist">
+        <div class="posts-tab-container" role="tablist">
           <a aria-selected="false" class="posts-icon" role="tab" @click="changeCategory('posts')" tabindex="0">
-            <span class="p3">
-              <icon-posts-tab class="p4" />
-              <span class="p5">Posts</span>
+            <span class="posts-tab">
+              <icon-posts-tab class="posts-tab-icon" />
+              <span class="posts-tab-text">Posts</span>
             </span>
           </a>
           <a aria-selected="false" class="videos-icon" role="tab" v-if="videosPosts.length !== 0" @click="changeCategory('videos')" tabindex="0">
-            <span class="a1">
-              <icon-videos-tab class="a2" />
-              <span class="a3">Videos </span>
+            <span class="videos-tab">
+              <icon-videos-tab />
+              <span class="videos-tab-text">Videos </span>
             </span>
           </a>
-          <a aria-selected="false" class="p6" role="tab" @click="changeCategory('saved')" tabindex="0">
-            <div class="p7">
-              <icon-saved-tab class="p8" />
-              <span class="p9">Saved</span>
+          <a aria-selected="false" class="saved-icon" role="tab" @click="changeCategory('saved')" tabindex="0">
+            <div class="saved-tab">
+              <icon-saved-tab />
+              <span class="saved-tab-text">Saved</span>
             </div>
           </a>
-          <a aria-selected="false" class="p10" role="tab" tabindex="0">
-            <span class="p11">
-              <icon-tagged-tab class="p12" />
-              <span class="p13">Tagged</span>
+          <a aria-selected="false" class="tagged-icon" role="tab" tabindex="0">
+            <span class="tagged-tab">
+              <icon-tagged-tab/>
+              <span class="tagged-tab-text">Tagged</span>
             </span>
           </a>
         </div>
@@ -174,7 +174,6 @@ export default {
   },
   methods: {
     changeCategory(category) {
-      console.log(category)
       this.currCategory = category
     },
   },

@@ -9,7 +9,7 @@
             from your friends.
           </h2>
           <div>
-            <button class="fb-login-btn" type="button">
+            <button class="fb-btn" type="button">
               <span class="fb-icon"><i class="fa-brands fa-facebook-square" /></span>
               <span />Log in with Facebook
             </button>
@@ -18,9 +18,10 @@
           <el-input class="input-textfield" v-model="email" placeholder="Mobile number or email" />
           <el-input class="input-textfield" v-model="fullname" placeholder="Full Name" />
           <el-input class="input-textfield" v-model="username" placeholder="Username" />
-          <el-input class="input-textfield" v-model="password" placeholder="Password" />
+          <el-input class="input-textfield" type="password" v-model="password" placeholder="Password" />
           <div class="sing-up-btn-container">
-            <button class="sing-up-btn" type="submit" @click="signup()">Sign up</button>
+            <button v-if="verifyUserInput" class="signup-btn enabled-btn" type="submit" @click="signup()">Sign up</button>
+            <button v-else disabled class="signup-btn" type="submit">Sign up</button>
           </div>
           <p class="sing-up-bottom-text">
             By signing up, you agree to our
@@ -68,40 +69,19 @@ export default {
       password: "",
     }
   },
+  computed: {
+    verifyUserInput() {
+      return this.email.length > 0 && this.fullname.length > 0 && this.username.length > 0 && this.password.length > 0
+    },
+  },
   methods: {
-    createNewUser() {
-      const user = {
-        id: this.generateId(),
-        username: this.username,
-        password: this.password,
-        fullname: this.fullname,
-        imgUrl: "https://i.pinimg.com/474x/66/ff/cb/66ffcb56482c64bdf6b6010687938835.jpg",
-        savedPosts: [],
-        followers: 0,
-        following: 0,
-        bio: "",
-      }
-    },
-    async generateId() {
-      try {
-        const users = userService.getAllUsers()
-        const lastId = users[users.length].id
-      } catch (err) {
-        console.log(err)
-      }
-
-      console.log("u" + (parseInt(lastId.split(1)[1]) + 1).toString())
-      return "u" + (parseInt(lastId.split(1)[1]) + 1).toString()
-    },
     async signup() {
       try {
-        const user = await this.createNewUser()
-        await userService.signup(user)
-        await this.$store.dispatch({ type: "login", userCred: { username: this.username, password: this.password } })
+        await this.$store.dispatch({ type: "signup", userInfo: { username: this.username, password: this.password, fullname: this.fullname } })
         this.$router.push("/")
       } catch (err) {
         console.log(err)
-        this.msg = "Failed to login"
+        this.msg = "Failed to signup"
       }
     },
   },

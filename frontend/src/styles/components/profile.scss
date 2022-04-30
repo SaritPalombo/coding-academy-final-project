@@ -123,32 +123,7 @@
   }
 }
 
-.p1 {
-  font: inherit;
-  vertical-align: baseline;
-  border: 0 solid #000;
-  box-sizing: border-box;
-  flex-shrink: 0;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  -webkit-box-align: center;
-  align-items: center;
-  border-top: 1px solid rgba(var(--b38, 219, 219, 219), 1);
-  color: #8e8e8e;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  flex-direction: row;
-  font-size: 12px;
-  font-weight: 600;
-  -webkit-box-pack: center;
-  justify-content: center;
-  letter-spacing: 1px;
-  text-align: center;
-}
-
-.p1 {
+.posts-tab-container  {
   font: inherit;
   vertical-align: baseline;
   border: 0 solid #000;
@@ -180,15 +155,15 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin-right: 60px;
 
-    .p3 {
+    .posts-tab {
       font: inherit;
       display: flex;
 
-      .p4 {
+      .posts-tab-icon {
         color: rgb(142, 142, 142);
       }
 
-      .p5 {
+      .posts-tab-text {
         color: rgba(var(--f52, 142, 142, 142), 1);
         text-transform: uppercase;
         font: inherit;
@@ -205,13 +180,13 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin-right: 60px;
 
-    .a1 {
+    .videos-tab {
       text-transform: uppercase;
       font: inherit;
       align-items: center;
       display: flex;
 
-      .a3 {
+      .videos-tab-text {
         color: rgba(var(--f52, 142, 142, 142), 1);
         font: inherit;
         margin-left: 6px;
@@ -219,7 +194,7 @@
     }
   }
 
-  .p6 {
+  .saved-icon {
     letter-spacing: 1px;
     text-align: center;
     margin: 0;
@@ -243,7 +218,7 @@
     color: rgba(var(--f52, 142, 142, 142), 1);
     margin-right: 60px;
 
-    .p7 {
+    .saved-tab {
       letter-spacing: 1px;
       text-align: center;
       cursor: pointer;
@@ -268,22 +243,7 @@
       -webkit-box-flex: 0;
       flex: 0 0 auto;
 
-      .p8 {
-        letter-spacing: 1px;
-        text-align: center;
-        cursor: pointer;
-        text-transform: uppercase;
-        font: inherit;
-        -webkit-box-direction: normal;
-        color: rgb(142, 142, 142);
-        fill: rgb(142, 142, 142);
-        height: 12;
-        width: 12;
-        display: block;
-        position: relative;
-      }
-
-      .p9 {
+      .saved-tab-text {
         letter-spacing: 1px;
         text-align: center;
         cursor: pointer;
@@ -300,7 +260,7 @@
     }
   }
 
-  .p10 {
+  .tagged-icon {
     letter-spacing: 1px;
     text-align: center;
     margin: 0;
@@ -323,7 +283,7 @@
     align-items: center;
     color: rgba(var(--f52, 142, 142, 142), 1);
 
-    .p11 {
+    .tagged-tab {
       letter-spacing: 1px;
       text-align: center;
       cursor: pointer;
@@ -339,22 +299,7 @@
       align-items: center;
       display: flex;
 
-      .p12 {
-        letter-spacing: 1px;
-        text-align: center;
-        cursor: pointer;
-        -webkit-box-direction: normal;
-        text-transform: uppercase;
-        font: inherit;
-        color: rgb(142, 142, 142);
-        fill: rgb(142, 142, 142);
-        height: 12;
-        width: 12;
-        display: block;
-        position: relative;
-      }
-
-      .p13 {
+      .tagged-tab-text {
         letter-spacing: 1px;
         text-align: center;
         cursor: pointer;

@@ -18,7 +18,6 @@ export default {
   },
   computed: {
     activeUser() {
-      // console.log("aaa", this.$store.getters.loggedInUser)
       return this.$store.getters.loggedInUser
     },
   },

@@ -23,7 +23,23 @@ async function logout(req, res) {
   }
 }
 
+async function signup(req, res) {
+  try {
+    const { username, password, fullname } = req.body
+    console.log("signup", username, password, fullname)
+    const account = await authService.signup(username, password, fullname)
+    logger.debug(`auth.route - new account created: ` + JSON.stringify(account))
+    const user = await authService.login(username, password)
+    req.session.userId = user.id
+    res.json(user)
+  } catch (err) {
+    logger.error("Failed to signup " + err)
+    res.status(500).send({ err: "Failed to signup" })
+  }
+}
+
 module.exports = {
   login,
   logout,
+  signup,
 }

@@ -1,5 +1,3 @@
-import { storageService } from "./storage-service.js"
-import { utilService } from "./util-service.js"
 import { httpService } from "./http.service"
 
 const STORAGE_KEY_LOGGED_IN_USER = "STORAGE_KEY_LOGGED_IN_USER"
@@ -8,7 +6,8 @@ export const userService = {
   login,
   logout,
   getLoggedInUser,
-  signup
+  signup,
+  savePost,
 }
 
 function getLoggedInUser() {
@@ -30,10 +29,15 @@ function _saveLocalUser(user) {
   return user
 }
 
-function signup(user){
-  return await httpService.post("user", user)
+async function signup(user) {
+  const userData = await httpService.post("auth/signup", user)
+  return _saveLocalUser(userData)
 }
 
-function getAllUsers(){
-  return await httpService.get("user")
+async function savePost(post) {
+  const user = getLoggedInUser()
+  const postIdIdx = user.savedPosts.indexOf(post.id)
+  postIdIdx !== -1 ? user.savedPosts.splice(postIdIdx, 1) : user.savedPosts.push(post.id)
+  await httpService.put("user", user)
+  return _saveLocalUser(user)
 }
